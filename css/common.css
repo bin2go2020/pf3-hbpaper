@@ -41,29 +41,22 @@ body{
 }
 
 .h1{
-  font-size: 72px;
-  font-weight: bold;
+  font-size: 64px;
 }
 .h2{
-  font-size: 60px;
+  font-size: 54px;
   text-transform: capitalize;
   margin-bottom:20px;
-  font-weight: normal;
-  color: #353535;
+  font-weight: 200;
 }
 .h3{
-  font-size: 24px;
-  font-family: 'Noto Sans KR', sans-serif
-  font-weight: normal;
-  color: #353535;
+  font-size: 40px;
 }
 .h4{
   font-size: 22px;
 }
 .h5{
   font-size: 18px;
-  color: #29900d;
-  font-weight: bold;
 }
 .h6{
   font-size: 20px;
@@ -110,6 +103,7 @@ main .h2::before{
   height: 3px;
   width: 60px;
   display:block;
+  background-color: orange;
   margin-bottom: 10px;
 }
 .sasun::before{
@@ -121,9 +115,7 @@ main .h2::before{
 .block{
   display: block;
 }
-span .text_under::after{
-  content: "";
-}
+
 /* 정렬 */
 .text-center{
   text-align: center;

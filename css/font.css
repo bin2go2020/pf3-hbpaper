@@ -3,8 +3,8 @@
    font-weight: 400;
 } */
 body{
-   font-family: 'Nanum Brush Script', cursive;
-   font-family: 'Noto Sans KR', sans-serif;
+   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+   font-weight: 400;
 }
 /* hs겨울눈꽃체 */
 
@@ -13,11 +13,6 @@ body{
    src: url('font/HSGyeoulNoonkott2.0-Regular.woff') format('woff');
    font-weight: 400;
    font-style: normal;
-}
-#title .wrap p{
-   font-family: Nanum Brush Script;
-  font-size: 35px;
-}
 }
 
 

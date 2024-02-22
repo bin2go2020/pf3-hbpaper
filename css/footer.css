@@ -1,29 +1,21 @@
 footer {
-  background-color: #529040;
-  height: 200px;
-  display: flex;
+
+  background-color: #222222;
 }
 footer .wrap {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  /*! max-width: 100%; */
-  /*! padding: 0 calc((100% - 1520px) / 2); */
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto 1fr;
-  padding-top: 25px;
+  max-width: 100%;
+  padding: 0 calc((100% - 1520px) / 2);
+  padding-bottom: 50px;
 }
 footer .wrap h1 {
 
 }
 
 footer .wrap ul.pnb {
-  grid-column: 1;
-  grid-row: 3;
-  padding-top: 50px;
-}
-footer .wrap ul.pnb::before{
-content: "";  
-display: block;
+  width: 60%;
 }
 footer .wrap ul.pnb li {
   
@@ -40,11 +32,12 @@ footer .wrap ul.pnb li:not(:first-child) a{
   padding: 0 15px;
 }
 footer .wrap div{
-  grid-column: 2;
-  grid-row: 3;
+  width: 40%;
+  justify-content: end;
+  align-items: center;
 }
 footer .wrap div ul.fnb{
-  padding-top: 50px;
+
 }
 footer .wrap div ul.fnb li{
   
@@ -53,47 +46,34 @@ footer .wrap div ul.fnb li a{
   padding: 0 15px;
 }
 footer .wrap div select{
+
   height: 30px;
-  position: absolute;
-  top: 30px;
-  right: 60px;
 }
 footer .wrap div select option{
 
 }
 footer .wrap a.blog {
-  /*! right: calc((100% - 1520px) / 2); */
-  top: 25px;
+  position: absolute;
+  right: calc((100% - 1520px) / 2);
+  top: 75px;
   font-size: 0;
   width: 41px;
   height: 41px;
   background-image: url(../img/blog_btn.png);
-  position: absolute;
-  right: 0;
 }
 footer .wrap address {
   width: 100%;
-  color: #fff;
-  grid-column: 1;
-  grid-row: 1;
-  padding-bottom: 5px;
+  color: #ccc;
 }
- /*footer .wrap address::before{
+footer .wrap address::before{
 content: "";  
 width: 100vw;
 display: block;
 border-top: 1px solid #ccc;
 margin-left: calc((1920px - 1520px) / -2);
-margin-bottom: 20px; 
-} */
+margin-bottom: 20px;
+}
 footer .wrap  p {
-/*! content: ""; */  
-/*! width: 100vw; */
-/*! display: block; */
-/*! border-top: 1px solid #ccc; */
-/*! margin-left: calc((1920px - 1520px) / -2); */
-/*! margin-bottom: 20px; */
-color: #b4d2ab;
-grid-column: 1;
-grid-row: 2;
+
+  color: #ccc;
 }

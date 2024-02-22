@@ -4,6 +4,7 @@ aside{
   top: calc(50% - 43px);
 }
 aside ul{
+   
 }
 aside ul li:not(:last-child){
   margin-bottom: 10px;
@@ -17,7 +18,7 @@ aside ul li a{
   border-radius: 50%;
 }
 .currentB{
-  background-color:#b4d2ab; 
+  background-color:blue; 
 }
 .currentW{
   background-color:white; 
